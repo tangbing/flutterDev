@@ -1,0 +1,33 @@
+{
+  "@@last_modified": "2024-06-13T20:33:55.408802",
+  "home": "Home",
+  "@home": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "profile": "Profile",
+  "@profile": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "setting": "Setting",
+  "@setting": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "explore": "Explore",
+  "@explore": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  },
+  "mdrStatus": "MdrStatus",
+  "@mdrStatus": {
+    "type": "text",
+    "placeholders_order": [],
+    "placeholders": {}
+  }
+}
