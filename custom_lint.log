@@ -1,0 +1,346 @@
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 Plugin ConvertToStatelessBaseWidget threw while analyzing /Users/tb/Documents/flutter_dev/untitled/lib/key/test_key.dart:
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #4      _ChangeBuilderImpl.addDartFileEdit (package:custom_lint_core/src/change_reporter.dart:134:33)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #5      ConvertToStatelessBaseWidget._convertStatefulToStatelessWidget (package:riverpod_lint/src/assists/convert_to_stateless_base_widget.dart:138:19)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #6      ConvertToStatelessBaseWidget.run.<anonymous closure> (package:riverpod_lint/src/assists/convert_to_stateless_base_widget.dart:61:9)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #7      _rootRunUnary (dart:async/zone.dart:1415:13)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #8      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #9      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #10     LinterVisitor.visitExtendsClause (package:custom_lint_core/src/node_lint_visitor.g.dart:387:5)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #11     ExtendsClauseImpl.accept (package:analyzer/src/dart/ast/ast.dart:6445:50)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #12     ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2905:20)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #13     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #14     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #15     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #16     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #17     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #18     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #19     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #20     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #21     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #22     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #23     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #24     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #25     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #26     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #27     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #28     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #29     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #30     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #31     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #32     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #33     DartAssist.startUp.<anonymous closure> (package:custom_lint_core/src/assist.dart:81:17)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #34     _rootRun (dart:async/zone.dart:1399:13)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #35     _CustomZone.run (dart:async/zone.dart:1301:19)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #36     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #37     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #38     _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:510:5)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 <asynchronous suspension>
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #39     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 <asynchronous suspension>
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 #40     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830 <asynchronous suspension>
+[ConvertToStatelessBaseWidget] 2024-09-01T11:28:31.951830
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 Plugin ConvertToStatefulBaseWidget threw while analyzing /Users/tb/Documents/flutter_dev/untitled/lib/key/test_key.dart:
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:54:7)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:129:5)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:287:33)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:136:23)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #4      _ChangeBuilderImpl.addDartFileEdit (package:custom_lint_core/src/change_reporter.dart:134:33)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #5      ConvertToStatefulBaseWidget._convertStatefulToStatefulWidget (package:riverpod_lint/src/assists/convert_to_stateful_base_widget.dart:188:19)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #6      ConvertToStatefulBaseWidget.run.<anonymous closure> (package:riverpod_lint/src/assists/convert_to_stateful_base_widget.dart:59:9)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #7      _rootRunUnary (dart:async/zone.dart:1415:13)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #8      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #9      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #10     LinterVisitor.visitExtendsClause (package:custom_lint_core/src/node_lint_visitor.g.dart:387:5)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #11     ExtendsClauseImpl.accept (package:analyzer/src/dart/ast/ast.dart:6445:50)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #12     ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2905:20)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #13     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #14     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #15     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #16     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #17     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #18     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #19     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #20     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #21     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #22     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #23     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #24     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #25     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #26     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #27     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #28     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #29     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #30     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #31     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #32     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #33     DartAssist.startUp.<anonymous closure> (package:custom_lint_core/src/assist.dart:81:17)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #34     _rootRun (dart:async/zone.dart:1399:13)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #35     _CustomZone.run (dart:async/zone.dart:1301:19)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #36     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #37     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #38     _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:510:5)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 <asynchronous suspension>
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #39     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 <asynchronous suspension>
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 #40     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173 <asynchronous suspension>
+[ConvertToStatefulBaseWidget] 2024-09-01T11:28:31.953173
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to /Users/tb/fvm/versions/3.22.0/packages/flutter/lib/src/foundation/key.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to /Users/tb/fvm/versions/3.22.0/packages/flutter/lib/src/foundation/key.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to /Users/tb/fvm/versions/3.22.0/packages/flutter/lib/src/foundation/key.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to /Users/tb/fvm/versions/3.22.0/packages/flutter/lib/src/foundation/key.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to /Users/tb/fvm/versions/3.22.0/packages/flutter/lib/src/foundation/key.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to /Users/tb/fvm/versions/3.22.0/packages/flutter/lib/src/foundation/key.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to /Users/tb/fvm/versions/3.22.0/packages/flutter/lib/src/foundation/key.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to /Users/tb/fvm/versions/3.22.0/packages/flutter/lib/src/foundation/key.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to /Users/tb/fvm/versions/3.22.0/packages/flutter/lib/src/foundation/key.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to /Users/tb/fvm/versions/3.22.0/packages/flutter/lib/src/foundation/key.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
